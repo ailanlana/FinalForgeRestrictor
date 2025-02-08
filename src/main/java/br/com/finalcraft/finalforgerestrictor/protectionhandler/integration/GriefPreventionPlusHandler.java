@@ -16,8 +16,8 @@ import org.bukkit.entity.Villager;
 
 public class GriefPreventionPlusHandler implements ProtectionHandler {
 
-	@FCLocale(lang = LocaleType.EN_US, text = "§e§l ▶ §cVocê está muito perto de um Claim para fazer isso!")
-	@FCLocale(lang = LocaleType.PT_BR, text = "§e§l ▶ §cYou are to close to a claim to do that!!")
+	@FCLocale(lang = LocaleType.EN_US, text = "§e§l ▶ §c你距离别人领地太近了!")
+	@FCLocale(lang = LocaleType.PT_BR, text = "§e§l ▶ §c你距离别人领地太近了!")
 	private static LocaleMessage YOU_ARE_TOO_CLOSE_TO_A_CLAIM;
 
 	@Override

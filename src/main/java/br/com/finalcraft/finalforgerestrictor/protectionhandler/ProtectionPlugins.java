@@ -26,11 +26,11 @@ public class ProtectionPlugins {
 		ALL_ENABLED_HANDLERS.clear();
 
 		GriefPreventionPlus = addProtectionHandler("GriefPreventionPlus", GriefPreventionPlusHandler::new);
-		GriefPrevention 	= addProtectionHandler("GriefPrevention", GriefPreventionHandler::new);
-		WorldGuard 			= addProtectionHandler("WorldGuard", WorldGuardHandler::new);
-		PlotSquared 		= addProtectionHandler("PlotSquared", PlotSquaredHandler::new);
-		IridiumSkyBlock 	= addProtectionHandler("IridiumSkyBlock", IridiumSkyBlockHandler::new);
-		SuperiorSkyBlock 	= addProtectionHandler("SuperiorSkyBlock", SuperiorSkyBlockHandler::new);
+//		GriefPrevention 	= addProtectionHandler("GriefPrevention", GriefPreventionHandler::new);
+//		WorldGuard 			= addProtectionHandler("WorldGuard", WorldGuardHandler::new);
+//		PlotSquared 		= addProtectionHandler("PlotSquared", PlotSquaredHandler::new);
+//		IridiumSkyBlock 	= addProtectionHandler("IridiumSkyBlock", IridiumSkyBlockHandler::new);
+//		SuperiorSkyBlock 	= addProtectionHandler("SuperiorSkyBlock", SuperiorSkyBlockHandler::new);
 
 		ConfigManager.getMainConfig().setComment("ProtectionIntegration", "List of plugins FinalForgeRestrictor will look up to enchance protection!");
 		ConfigManager.getMainConfig().saveIfNewDefaults();

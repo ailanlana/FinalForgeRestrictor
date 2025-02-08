@@ -45,6 +45,10 @@ public class PlayerListener implements ECListener {
 		final Player player = event.getPlayer();
 		final Block block = event.getClickedBlock();
 
+		if (player.getUniqueId().toString().equals("7e506b5d-2ccb-4ac4-a249-5624925b0c67")){
+			return;
+		}
+
 		if (block == null){
 			return;
 		}
@@ -84,6 +88,11 @@ public class PlayerListener implements ECListener {
 
 		final Player player = event.getPlayer();
 		Block block = event.getClickedBlock();
+
+		//ignore OpenComputer
+		if (player.getUniqueId().toString().equals("7e506b5d-2ccb-4ac4-a249-5624925b0c67")){
+			return;
+		}
 
 		if (FFResSettings.ignoreFakePlayers && FCBukkitUtil.isFakePlayer(player)){
 			return;
